@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(177, 218, 45);
+    font-family: 'Lusitana', serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(19, 77, 46, 0.575);
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    background-color: #111;
+}
+  
+.active {
+    background-color: #4CAF50;
+}
+
+#main {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+button {
+    font-size: 20px;
+    border-radius: 3px;
+}
+div {
+    text-align: center;
+    border: 2px solid rgb(36, 201, 192);
+    border-radius: 10px;
+    margin-top: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(49, 235, 126);
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* tablet */
+@media only screen and (min-width: 700px) {
+    div {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+/* laptop */
+@media only screen and (min-width: 700px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
